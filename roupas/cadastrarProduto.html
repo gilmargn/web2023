@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastrar produto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bulma.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+    <h1>Cadastrar doacao</h1>
+    <div class="field">
+    <form action="processar.php" method="post">
+    <input class="input is-success" type="date" id="data" name="data" placeholder="qual a data ?"><br>
+    </div>
+    <div class="field">
+    <input class="input is-success" type="number" id="codigo_produto" name="codigo_produto" placeholder="Digite o codigo"><br>
+           </div>
+          <input class="input is-success" type="text" id="tipo_produto" name="tipo_produto" placeholder="qual o produto?"><br>
+            <form action="processar.php" method="post">
+
+                <label>
+                </div>
+                </div class="field">
+                <input type="checkbox"name="ckRoupas[]"value="agasalho">
+                 agasalho
+                <label>
+                </div>
+                <div class="field">
+                <input type="checkbox"name="ckRoupas[]"value="roupas infantis">
+                roupas infantis
+                <label>
+                </div>
+                <input type="checkbox"name="ckRoupas[]"value="roupas masculinas">
+                roupas masculinas
+                <label>
+                <div class="field">
+                <input type="checkbox"name="ckRoupas[]"value="roupas feminas">
+                 roupas feminas
+                <label>
+            </div>
+            <div class="field">
+            <input class="input is-success" type="text" id="tipo_doacao" name="tipo_doacao" placeholder=" qual a doacao ?"><br>
+            <form action="processar.php" method="post"><br>
+                <input type="checkbox"name="ckRoupas[]"value="agasalho"> 
+                 agasalho
+                <label>
+                </div>
+                <div class="field">
+                <input type="checkbox"name="ckRoupas[]"value="roupas infantis">
+                roupas infantis
+                <label>
+                </div>
+                <input type="checkbox"name="ckRoupas[]"value="roupas masculinas">
+                roupas masculinas
+                <label>
+                <div class="field">
+                <input type="checkbox"name="ckRoupas[]"value="roupas feminas">
+                 roupas feminas
+                <label>
+            </div>
+            <div class="field"><br>
+                <input class="input is-success" type="number" id="quantidades" name="quantidade_doacao" placeholder="Digite a quantidade_doacao"><br>
+                </div>
+    <div class="control">
+        <button class="button is-link" type="submit" >Enviar</button>
+      </div>
+    </form>
+    </div>
+</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastro de Clientes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/bulma.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+          <h1 class="title">
+           Cadastro de peixes
+          </h1>
+
+        </section>
+        <section id="one" class="main special">
+          <div class="container">
+    <form action="peixes.php" method="post">
+        <div class="field">
+            <label class="label">Peixe</label>
+            <div class="control">
+              <input class="input" type="text" name="peixe" placeholder="Digite o que foi pescado">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Quantidade</label>
+            <div class="control">
+              <input class="input" type="number" name="qtde" placeholder="Digite a quantidade">
+            </div>
+            <div class="field">
+                <label class="label">Peso médio</label>
+                <div class="control">
+                  <input class="input" type="text" name="peso" placeholder="Digite o peso médio em gramas">
+                </div>
+        </div>
+          <div class="field">
+            <div class="control">
+              <label class="radio">
+                <label class="label">habitat que foi pescado</label>
+                <input type="radio" name="habitat" value="Rio">
+                Rio
+              </label>
+              <label class="radio">
+                <input type="radio" name="habitat" value="Represa">
+                Represa
+              </label>
+            </label>
+            <label class="radio">
+              <input type="radio" name="habitat" value="Outros">
+              Outros
+            </label>
+            </div>
+          </div>
+          </div>
+            <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link">Pescar</button>
+                </div>
+                <footer class="footer">
+                  <div class="content has-text-centered">
+                    <p>
+                      <strong>IFAM.</strong> feito por <a href="https://jgthms.com">Adeilson S. Silva</a>. O código fonte foi realiado em sala
+                      <a href="">LAB 2</a>. O conteúdo do site é privado
+                      <a href="">Turma 2022.1</a>.
+                    </p>
+                  </div>
+                </footer>
+    </form>
+</body>
+</html>

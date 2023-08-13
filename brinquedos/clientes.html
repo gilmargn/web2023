@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastrar clientes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bulma.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+    <h1>Cadastrar Clientes</h1>
+    <div class="field">
+
+    <form action="processarCliente.php" method="post">
+    <input class="input is-success" type="text" id="name" name="nome" placeholder="Digite seu nome completo"><br>
+    </div>
+    <div class="field">
+    <input class="input is-success" type="email" id="email" name="email" placeholder="Digite seu email"><br>
+    </div>
+    <div class="field">
+        <input class="input is-success" type="number" id="phone" name="phone" placeholder="Digite seu número sem parenteses ou traços"><br>
+        </div>
+    <div class="control">
+        <button class="button is-link" type="submit" >Enviar</button>
+      </div>
+    </form>
+    </div>
+</div>
+</section>
+</body>
+</html>

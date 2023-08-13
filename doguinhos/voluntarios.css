@@ -1,0 +1,49 @@
+body {
+    background-color: #633c8d;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+  }
+
+  h1, h2 {
+    color: #ffffff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"], input[type="Telefone"] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c9438b;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }

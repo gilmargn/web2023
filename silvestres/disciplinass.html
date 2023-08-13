@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastrar disciplinas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bulma/css/bulma.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+    <h1>Cadastrar disciplinas</h1>
+    <div class="field">
+
+    <form action="processardiciplinass.php" method="post">
+    <input class="input is-success" type="text" id="disciplinas" name="disciplinas" placeholder="Digite sua disciplinas"><br>
+    </div>
+    <div class="field">
+    <input class="input is-success" type="number" id="carga_hr" name="carga_hr" placeholder="Digite a carga_hr"><br>
+    </div>
+    <div class="field">
+        <input class="input is-success" type="text" id="dias_semanais" name="dias_semanais" placeholder="Digite os dias semanais"><br>
+        </div>
+    <div class="control">
+        <button class="button is-link" type="submit" >Enviar</button>
+      </div>
+    </form>
+    </div>
+</div>
+</section>
+</body>
+</html>
